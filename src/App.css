@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p{
+  font-size: 100px;
+  font-family: 'Lilita One', sans-serif;
+  color: #202124;
+}
