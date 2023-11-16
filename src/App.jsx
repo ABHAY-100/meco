@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <p>fuck u</p>
+      <p>site is under development</p>
     </>
   )
 }
