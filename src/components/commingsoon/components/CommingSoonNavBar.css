@@ -1,3 +1,19 @@
-.left{
-    background: url();
+.left img{
+    width: 232px;
+    height: 133px;
+    flex-shrink: 0;
+}
+.right .navtext{
+    font-family: var(--font-ClashDisplay);
+    font-size: var(--font-size-commingsoon-primary);
+    color: #FFF;
+
+text-align: center;
+font-style: normal;
+font-weight: 500;
+line-height: 45px; /* 173.077% */
+}
+.right .dot{
+    width: 6px;
+    height: 6px;
 }

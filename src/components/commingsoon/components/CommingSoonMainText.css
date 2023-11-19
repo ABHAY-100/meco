@@ -1,0 +1,9 @@
+.mainText {
+  color: #fff;
+  text-align: center;
+  font-family: var(--font-StarifeDemo);
+  font-size: 210px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
