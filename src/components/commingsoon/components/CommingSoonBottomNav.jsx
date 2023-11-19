@@ -1,4 +1,7 @@
 import React from 'react'
+import { FaInstagram } from "react-icons/fa";
+import { FaThreads } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa6";
 import './CommingSoonBottomNav.css'
 
 const CommingSoonBottomNav = () => {
@@ -6,11 +9,11 @@ const CommingSoonBottomNav = () => {
     <div className="bottomNav">
       <div className="left">
         <p>Follow Us & Get Update</p>
-        <img src="/arrow-right-solid.svg" alt="" className="arrow" />
+        <FaArrowRight className="arrow" style={{ color: '#ffffff' }} />
       </div>
       <div className="right">
-        <img src="/instagram.svg" alt="" className="insta" />
-        <img src="/threads.svg" alt="" className="threads" />
+        <FaThreads className="threads" style={{ color: '#ffffff' }} />
+        <FaInstagram className='insta' style={{ color: '#ffffff' }} />
       </div>
     </div>
   )

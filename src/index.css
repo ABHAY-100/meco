@@ -1,11 +1,11 @@
 @font-face {
   font-family: "StarifeDemo";
-  src: url("../public/fonts/StarifeDemo.ttf") format("truetype");
+  src: url("/fonts/StarifeDemo.ttf") format("truetype");
 }
   
 @font-face {
   font-family: "ClashDisplay";
-  src: url("../public/fonts/ClashDisplay-Medium.ttf") format("truetype");
+  src: url("/fonts/ClashDisplay-Medium.ttf") format("truetype");
 }
 
 *{

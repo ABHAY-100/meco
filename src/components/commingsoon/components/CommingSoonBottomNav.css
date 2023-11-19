@@ -1,25 +1,54 @@
+.bottomNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 103px;
+  padding-right: 100px;
+  margin-bottom: 50px;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.left p {
+  font-family: var(--font-ClashDisplay);
+  font-size: var(--font-size-commingsoon-primary);
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+}
+
 .left .arrow {
-  width: 20.52px;
-  height: 20px;
+  width: 25.65px;
+  height: 25px;
   flex-shrink: 0;
 }
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
 .insta {
   width: 34.008px;
   height: 34px;
   flex-shrink: 0;
 }
+
 .threads {
   width: 30.116px;
   height: 35px;
   flex-shrink: 0;
-}
-.left p{
-    color: #FFF;
-
-text-align: center;
-font-family: var(--font-ClashDisplay);
-font-size: 26px;
-font-style: normal;
-font-weight: 500;
-line-height: 45px; /* 173.077% */
 }

@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       < CommingSoon />
+      {/* This is the current developed page */}
     </>
   )
 }

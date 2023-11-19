@@ -7,9 +7,11 @@ import '../commingsoon/CommingSoonContents.css'
 const CommingSoonContents = () => {
   return (
     <>
-      <CommingSoonNavBar/>
-      <CommingSoonMainText/>
-      <CommingSoonBottomNav/>
+      <div className="content">
+        <CommingSoonNavBar/>
+        <CommingSoonMainText/>
+        <CommingSoonBottomNav/>
+      </div>
     </>
   )
 }

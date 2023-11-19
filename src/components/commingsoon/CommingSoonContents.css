@@ -1,3 +1,8 @@
-body{
-    background: #BC04BF;
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
 }
