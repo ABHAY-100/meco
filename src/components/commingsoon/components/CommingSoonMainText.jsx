@@ -3,7 +3,7 @@ import '../components/CommingSoonMainText.css'
 
 const CommingSoonMainText = () => {
   return (
-    <div className='mainText'>CommingSoon</div>
+    <div className='mainText'>ComingSoon</div>
   )
 }
 
