@@ -29,7 +29,7 @@
 }
 
 .left .arrow {
-  width: 25.65px;
+  width: 18.65px;
   height: 25px;
   flex-shrink: 0;
 }
@@ -42,13 +42,13 @@
 }
 
 .insta {
-  width: 34.008px;
+  width: 27.008px;
   height: 34px;
   flex-shrink: 0;
 }
 
 .threads {
-  width: 30.116px;
-  height: 35px;
+  width: 27.008px;
+  height: 34px;
   flex-shrink: 0;
 }

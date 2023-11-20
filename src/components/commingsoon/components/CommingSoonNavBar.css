@@ -10,8 +10,8 @@ nav {
 }
 
 .left img {
-  width: 232px;
-  height: 133px;
+  /* width: 232px; */
+  height: 110px;
   flex-shrink: 0;
 }
 

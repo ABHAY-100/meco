@@ -1,6 +1,6 @@
 .mainText {
   font-family: var(--font-StarifeDemo);
-  font-size: 210px;
+  font-size: var(--font-size-commingsoon-maintext);
   font-weight: 400;
   line-height: normal;
   font-style: normal;
