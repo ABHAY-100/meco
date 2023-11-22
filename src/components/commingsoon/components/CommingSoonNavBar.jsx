@@ -6,7 +6,7 @@ const CommingSoonNavBar = () => {
   return (
     <nav>
       <div className="left">
-        <img src="/meco-icon-blank.png" alt="meco logo" />
+        <a href="https://meco.vercel.app/"><img src="/meco-icon-blank.png" alt="meco logo" /></a>
       </div>
       <div className="right">
         <ul>

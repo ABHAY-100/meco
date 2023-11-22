@@ -12,8 +12,8 @@ const CommingSoonBottomNav = () => {
         <FaArrowRight className="arrow" style={{ color: '#ffffff' }} />
       </div>
       <div className="right">
-        <FaThreads className="threads" style={{ color: '#ffffff' }} />
-        <FaInstagram className='insta' style={{ color: '#ffffff' }} />
+        <a href="https://www.threads.net/@meco.app" target='blank'><FaThreads className="threads" style={{ color: '#ffffff' }} /></a>
+        <a href="https://www.instagram.com/meco.app/" target='blank'><FaInstagram className='insta' style={{ color: '#ffffff' }} /></a>
       </div>
     </div>
   )
