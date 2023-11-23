@@ -23,7 +23,7 @@ To start experiencing the freedom of anonymous confession on meco, follow these 
 1. Clone the repository:
 
     ```bash
-    git clone [https://github.com/ABHAY-100/meco.git](https://github.com/ABHAY-100/meco.git)
+    git clone https://github.com/ABHAY-100/meco.git
     ```
 
 2. Install dependencies:
@@ -51,6 +51,6 @@ We welcome and appreciate contributions from the community! If you have ideas fo
 
 meco is currently not licensed. Please note that this means there are no specific permissions or restrictions in place. If you plan to use, modify, or distribute this project, we recommend checking back later or consulting with the project maintainers.
 
-For any questions or concerns, feel free to reach out to us at [meco.apppp@gmail.com](meco.apppp@gmail.com).
+For any questions or concerns, feel free to reach out to us at [meco.apppp@gmail.com](mailto:meco.apppp@gmail.com).
 
 Thank you for your interest in meco! 🤝
