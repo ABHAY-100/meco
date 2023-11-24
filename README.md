@@ -49,9 +49,6 @@ Connect with us at [meco.apppp@gmail.com](mailto:meco.apppp@gmail.com) to join t
 ### Acknowledgements
 A shoutout to future contributors who will shape the identity of meco.
 
-### Badges
-![Build Status](https://img.shields.io/travis/ABHAY-100/meco/develop.svg?style=flat-square)
-
 ### Screenshots or Demo
 [Link to Conceptual Demo](https://meco-conceptual-demo.com)
 
