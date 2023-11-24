@@ -49,9 +49,6 @@ Connect with us at [meco.apppp@gmail.com](mailto:meco.apppp@gmail.com) to join t
 ### Acknowledgements
 A shoutout to future contributors who will shape the identity of meco.
 
-### Screenshots or Demo
-[Link to Conceptual Demo](https://meco-conceptual-demo.com)
-
 ### Support
 For collaboration inquiries, open a [Collaborator's Corner](https://github.com/ABHAY-100/meco/issues) on GitHub. Let's build meco together!
 
