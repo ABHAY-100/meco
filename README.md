@@ -57,3 +57,5 @@ A shoutout to future contributors who will shape the identity of meco.
 
 ### Support
 For collaboration inquiries, open a [Collaborator's Corner](https://github.com/ABHAY-100/meco/issues) on GitHub. Let's build meco together!
+
+Thank you for your interest in meco! 🤝
