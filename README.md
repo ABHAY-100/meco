@@ -15,30 +15,26 @@ Welcome to meco, a confession sharing platform in the early stages of developmen
 - **Immersive Themes:** Conceptualizing various visual themes to customize the meco experience.
 
 ## Getting Started
-
 To start experiencing the freedom of anonymous confession on meco, follow these steps:
 
 1. Clone the repository:
 
     ```bash
-    git clone git clone https://github.com/ABHAY-100/meco.git
+    git clone https://github.com/ABHAY-100/meco.git
     ```
-
 2. Install dependencies:
 
     ```bash
     cd meco
     npm install
     ```
-
 3. Configure the application by setting up environment variables.
-
 4. Run the application:
 
     ```bash
     npm run dev
     ```
-
+    
 ### Usage
 1. Dive into the meco codebase and explore areas marked for development.
 2. Contribute ideas, propose features, and share feedback on the evolving project.
