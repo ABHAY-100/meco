@@ -52,3 +52,12 @@
   height: 34px;
   flex-shrink: 0;
 }
+
+@media screen and (width < 900px) {
+  .bottomNav .left{
+    display: none;
+  }
+  .bottomNav{
+    justify-content: center;
+  }
+}

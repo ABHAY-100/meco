@@ -7,3 +7,21 @@
   text-align: center;
   color: #fff;
 }
+
+@media screen and (width < 1270px) {
+  .mainText{
+    font-size: 145px;
+  }
+}
+
+@media screen and (width < 1050px) {
+  .mainText{
+    font-size: 110px;
+  }
+}
+
+@media screen and (width < 768px) {
+  .mainText{
+    font-size: 65px;
+  }
+}

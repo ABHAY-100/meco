@@ -37,3 +37,39 @@ ul {
   width: 6px;
   height: 6px;
 }
+
+.menu{
+  display: none;
+}
+
+.menubar{
+  width: 27.008px;
+  height: 34px;
+}
+
+@media screen and (width < 1160px) {
+  .menu{
+    display: inline-flex;
+  }
+  .menu-long{
+    display: none;
+  }
+}
+
+@media screen and (width < 900px) {
+  .left img{
+    height: 90px; 
+  }
+  nav{
+    padding: 39px 65px 0 25px;
+  }
+}
+
+@media screen and (width < 500px) {
+  .left img{
+    height: 90px; 
+  }
+  nav{
+    padding: 39px 45px 0 05px;
+  }
+}
