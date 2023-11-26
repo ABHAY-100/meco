@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "StarifeDemo";
+  src: url("/fonts/StarifeDemo.ttf") format("truetype");
+}
+  
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("/fonts/ClashDisplay-Medium.ttf") format("truetype");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* fonts */
+  --font-StarifeDemo: "StarifeDemo", sans-serif;
+  --font-ClashDisplay: "ClashDisplay", sans-serif;
+
+  /* fonts sizes*/
+  --font-size-commingsoon-maintext: 167px;
+  --font-size-commingsoon-primary: 22px;
+
+  /* colors */
+  --color-white: #fff;
+  --color-ElectricPurple: #BC04BF;
+  --color-LavenderPink: #F088F2;
+  --color-MediumPurple: #CC44F2;
+  --color-DarkPurple-1: #510273;
+  --color-DarkPurple-2: #281740;
+}
