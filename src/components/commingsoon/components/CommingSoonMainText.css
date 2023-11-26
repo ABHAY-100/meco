@@ -20,8 +20,25 @@
   }
 }
 
-@media screen and (width < 768px) {
+@media screen and (width < 770px) {
   .mainText{
-    font-size: 65px;
+    font-size: 75px;
+  }
+}
+
+@media screen and (width < 540px) {
+  .mainText{
+    font-size: 60px;
+  }
+  .bottomNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (width < 400px) {
+  .mainText{
+    font-size: 45px !important;
   }
 }

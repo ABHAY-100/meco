@@ -70,12 +70,22 @@ ul {
   }
 }
 
+@media screen and (width < 1024px) {
+  nav{
+    padding: 24px 65px 0 25px;
+  }
+}
+
 @media screen and (width < 900px) {
   .left img{
     height: 90px; 
   }
   nav{
     padding: 39px 65px 0 25px;
+  }
+  .menubar{
+    width: 24.008px;
+    /* height: 34px; */
   }
 }
 
@@ -85,5 +95,27 @@ ul {
   }
   nav{
     padding: 39px 45px 0 05px;
+  }
+}
+
+@media screen and (width < 720px) {
+  nav{
+    padding: 39px 32px 0 0px;
+  }
+}
+
+@media screen and (width < 600px) {
+  .left img{
+    height: 80px; 
+    padding-left: 3px;
+  }
+}
+
+@media screen and (width < 600px) {
+  .left a{
+    margin-left: -6px
+  }
+  .menu .menu_button{
+    margin-right: -10px;
   }
 }

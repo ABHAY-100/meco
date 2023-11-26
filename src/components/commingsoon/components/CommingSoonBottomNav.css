@@ -16,6 +16,10 @@
   justify-content: center;
   align-items: center;
   gap: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 .left p {
@@ -32,6 +36,11 @@
   width: 18.65px;
   height: 25px;
   flex-shrink: 0;
+}
+
+.bottomNav .left:hover{
+  background: rgba(0, 0, 0, 0.2);
+  transition: 0.5s all ease;
 }
 
 .right {
@@ -68,11 +77,58 @@
   transition: 0.5s all ease;
 }
 
+@media screen and (width < 1024px) {
+  .bottomNav{
+    padding-left: 62px;
+    padding-right: 68px;
+    margin-bottom: 35px;
+  }
+}
+
 @media screen and (width < 900px) {
-  .bottomNav .left{
-    display: none;
+  .right{
+    gap: 15px;
+  }
+  .left p{
+    font-size: 18px;
+  }
+  .left .arrow{
+    width: 15px;
+  }
+  .insta, .threads{
+    width: 24.008px;
+  }
+}
+
+@media screen and (width < 720px) {
+  nav{
+    padding: 39px 32px 0 0px;
   }
   .bottomNav{
+    padding-left: 32px;
+    padding-right: 33px;
+  }
+}
+@media screen and (width < 540px) {
+  .mainText{
+    font-size: 60px;
+  }
+  .bottomNav{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .bottomNav .arrow{
+    display: none;
+  }
+  .bottomNav .left{
+    border-radius: 100px;
+    background: rgba(0, 0, 0, 0.20);
+    margin-bottom: 30px;
+  }
+  .bottomNav .left p{
+    font-size: 15px;
+    padding: 0 10px;
   }
 }
