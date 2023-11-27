@@ -17,6 +17,8 @@ const ComingSoonBottomNav = () => {
     3. What specific skills or qualities do you possess that you feel align with the ethos of meco.app?
     4. How do you envisage your contribution shaping the overarching narrative of meco?
     5. Please provide your professional portfolio and resume for our review.
+
+    Additionally, try to include as much of the requested data as possible. If certain information is not available, feel free to inform us of your current status or any relevant details.
     `);
     window.location.href = `mailto:${emailAddress}?subject=${subject}&body=${body}`;
   };
