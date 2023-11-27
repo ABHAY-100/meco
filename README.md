@@ -1,19 +1,6 @@
 ### Project Title
 # meco: Empowering Wellness
 
-### Introduction
-MECO is now a mental health support platform, committed to fostering a space where individuals can connect, share their stories, and find support. Our volunteers are here to listen and provide a helping hand as you navigate your mental health journey.
-
-### Features (In Ideation)
-- **Expressive Reactions:** Envisioning a spectrum of reactions beyond simple upvoting and downvoting.
-- **Confession Challenges:** Crafting themed challenges to ignite creativity and community engagement.
-- **Audio Confessions:** A concept on the horizon - sharing confessions through voice recordings.
-- **Custom Avatars:** Sketching out the potential for expressive and personalized avatars.
-- **Collaborative Storytelling:** Imagining a space for users to co-create confessions and narratives.
-- **AI-driven Recommendations:** Exploring the possibility of personalized content suggestions based on user behavior.
-- **Confession Analytics:** Early-stage analytics to track the pulse of confessions and user interactions.
-- **Immersive Themes:** Conceptualizing various visual themes to customize the meco experience.
-
 ## Getting Started
 To start experiencing the freedom of anonymous confession on meco, follow these steps:
 
