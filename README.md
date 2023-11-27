@@ -2,7 +2,7 @@
 # meco: Empowering Wellness
 
 ## Getting Started
-To start experiencing the freedom of anonymous confession on meco, follow these steps:
+To start experiencing the freedom of meco, follow these steps:
 
 1. Clone the repository:
     ```bash
