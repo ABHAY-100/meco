@@ -1,8 +1,8 @@
 ### Project Title
-# meco: Collaborative Confessions Playground
+# meco: Empowering Wellness
 
-### Project Description
-Welcome to meco, a confession sharing platform in the early stages of development. This project is a canvas waiting to be painted, an idea evolving into reality. Initiated by a group of students eager to delve into the world of technology, meco is a journey of learning and innovation. Join us in shaping the future of meco, where every line of code and creative spark contributes to a unique platform for shared confessions.
+### Introduction
+MECO is now a mental health support platform, committed to fostering a space where individuals can connect, share their stories, and find support. Our volunteers are here to listen and provide a helping hand as you navigate your mental health journey.
 
 ### Features (In Ideation)
 - **Expressive Reactions:** Envisioning a spectrum of reactions beyond simple upvoting and downvoting.
