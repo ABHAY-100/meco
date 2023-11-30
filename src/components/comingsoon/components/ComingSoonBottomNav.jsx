@@ -27,7 +27,8 @@ const ComingSoonBottomNav = () => {
     <div className="bottomNav">
       <div className="left" onClick={handleSupportButtonClick}>
         <p>Contribute Now</p>
-        <FaArrowRight className="arrow" style={{ color: '#ffffff' }} />
+        {/* <FaArrowRight className="arrow" style={{ color: '#ffffff' }} /> */}
+        <a href="#"><span class="arrow right"></span></a>
       </div>
       
       <div className="right">

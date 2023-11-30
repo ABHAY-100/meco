@@ -1,4 +1,5 @@
 .bottomNav {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,7 +39,7 @@
   flex-shrink: 0;
 }
 
-.bottomNav .left:hover{
+.bottomNav .left:hover {
   background: rgba(0, 0, 0, 0.2);
   transition: 0.5s all ease;
 }
@@ -62,7 +63,7 @@
   flex-shrink: 0;
 }
 
-.bottomNav .right a{
+.bottomNav .right a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,13 +73,13 @@
   padding: 25px;
 }
 
-.bottomNav .right a:hover{
+.bottomNav .right a:hover {
   background: rgba(0, 0, 0, 0.2);
   transition: 0.5s all ease;
 }
 
 @media screen and (width < 1024px) {
-  .bottomNav{
+  .bottomNav {
     padding-left: 62px;
     padding-right: 68px;
     margin-bottom: 35px;
@@ -86,50 +87,128 @@
 }
 
 @media screen and (width < 900px) {
-  .right{
+  .right {
     gap: 15px;
   }
-  .left p{
+  .left p {
     font-size: 18px;
   }
-  .left .arrow{
+  .left .arrow {
     width: 15px;
   }
-  .insta, .threads{
+  .insta,
+  .threads {
     width: 24.008px;
   }
 }
 
 @media screen and (width < 720px) {
-  nav{
+  nav {
     padding: 39px 32px 0 0px;
   }
-  .bottomNav{
+  .bottomNav {
     padding-left: 32px;
     padding-right: 33px;
   }
 }
 
 @media screen and (width < 540px) {
-  .mainText{
+  .mainText {
     font-size: 60px;
   }
-  .bottomNav{
+  .bottomNav {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .bottomNav .arrow{
+  .bottomNav .arrow {
     display: none;
   }
-  .bottomNav .left{
+  .bottomNav .left {
     border-radius: 100px;
-    background: rgba(0, 0, 0, 0.20);
+    background: rgba(0, 0, 0, 0.2);
     margin-bottom: 30px;
   }
-  .bottomNav .left p{
+  .bottomNav .left p {
     font-size: 15px;
     padding: 0 10px;
+  }
+}
+
+.arrow {
+  --arrow-size: 1em;
+  --arrow-color: rgb(255, 255, 255);
+  --arrow-color-hover: rgba(255, 255, 255, 0.5);
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+  width: var(--arrow-size);
+  height: var(--arrow-size);
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    width: calc(var(--arrow-size) * 0.7071);
+    height: calc(var(--arrow-size) * 0.7071);
+    border-top: calc(var(--arrow-size) / 5) solid var(--arrow-color);
+    transition: all 150ms ease-in-out;
+  }
+
+  &.left {
+    &::after {
+      left: calc(var(--arrow-size) / 5);
+      border-left: calc(var(--arrow-size) / 5) solid var(--arrow-color);
+      transform-origin: top left;
+      rotate: -45deg;
+    }
+
+    &:hover::after {
+      box-shadow: calc(var(--arrow-size) / -8) calc(var(--arrow-size) / -8) 0
+        var(--arrow-color);
+    }
+  }
+
+  &.right {
+    &::after {
+      right: calc(var(--arrow-size) / 5);
+      border-right: calc(var(--arrow-size) / 5) solid var(--arrow-color);
+      transform-origin: top right;
+      rotate: 45deg;
+    }
+
+    &:hover::after {
+      box-shadow: calc(var(--arrow-size) / 8) calc(var(--arrow-size) / -8) 0
+        var(--arrow-color);
+    }
+  }
+}
+
+a ,.bottomNav .left:hover{
+  &:hover .arrow {
+    &.left,
+    &.right {
+      &::after {
+        border-color: var(--arrow-color-hover);
+      }
+    }
+
+    &.left {
+      &::after {
+        box-shadow: calc(var(--arrow-size) / -8) calc(var(--arrow-size) / -8) 0
+          var(--arrow-color);
+      }
+    }
+
+    &.right {
+      &::after {
+        box-shadow: calc(var(--arrow-size) / 8) calc(var(--arrow-size) / -8) 0
+          var(--arrow-color);
+      }
+    }
   }
 }
