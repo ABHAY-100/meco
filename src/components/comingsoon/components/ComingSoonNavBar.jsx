@@ -14,9 +14,9 @@ const ComingSoonNavBar = () => {
 
       <div className="right">
         <ul className="menu-long">
-          <li className="navtext">Contacts</li>
+          <li className="navtext"><a href="">Contacts</a></li>
           <FaCircle className="dot" style={{ color: "#ffffff" }} />
-          <li className="navtext">About</li>
+          <li className="navtext"><a href="">About</a></li>
         </ul>
 
         {/* <div className="menu">
