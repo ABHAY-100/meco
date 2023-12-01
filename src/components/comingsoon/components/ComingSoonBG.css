@@ -1,1 +1,82 @@
-/* aadi working */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    left: 0;
+    right:0;
+    top:0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+
+}
+
+.container div{
+    position: absolute;
+    border-radius: 50%;
+    animation: gradient 4s infinite;
+}
+
+@keyframes gradient{
+    70%{
+        transform:scale(1.2) translate(50px);
+    }
+}
+
+.container div:nth-child(1){
+    height: 90%;
+    width: 80%;
+    background-color: #BC04BF;
+    left: -29%;
+    top: -10%;
+}
+
+.container div:nth-child(2){
+    height: 80%;
+    width: 70%;
+    background-color:  #281740;
+    top: -12%;
+    right: -12%;
+    animation-delay: 8s;
+}
+
+.container div:nth-child(3){
+    height: 65%;
+    width: 80%;
+    background-color: #CC44F2;
+    bottom: -15%;
+    right: -20%;
+    animation-delay: 0.3s;
+}
+
+.container div:nth-child(4){
+    height:50% ;
+    width: 75%;
+    background-color: #510273;
+    bottom: -10%;
+    left: -18%;
+    animation-delay: 1.2s;
+}
+
+.container div:nth-child(5){
+    height:50% ;
+    width: 75%;
+    background-color:#F088F2 ;
+    bottom: 10%;
+    left: -20%;
+    animation-delay: 0.2s;
+}
+
+.container::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(80px);
+}

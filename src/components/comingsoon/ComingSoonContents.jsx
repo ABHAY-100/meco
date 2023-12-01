@@ -3,6 +3,7 @@ import ComingSoonNavBar from './components/ComingSoonNavBar'
 import ComingSoonMainText from './components/ComingSoonMainText'
 import ComingSoonBottomNav from './components/ComingSoonBottomNav'
 import './ComingSoonContents.css'
+import ComingSoonBG from './components/ComingSoonBG'
 
 const ComingSoonContents = () => {
   return (
@@ -11,6 +12,7 @@ const ComingSoonContents = () => {
         <ComingSoonNavBar />
         <ComingSoonMainText />
         <ComingSoonBottomNav />
+        <ComingSoonBG />
       </div>
     </>
   )
