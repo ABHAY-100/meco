@@ -214,7 +214,7 @@ ul a:hover::before, .toggle a:hover:before {
   overflow: hidden; /* To hide content when height and width are 0 */
   transition: height 0.3s, width 0.3s; /* Add a smooth transition effect */
   /* border-radius: 4000px; */
-  transition: all 0.5s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 input[type="checkbox"]:checked ~ .toggle {
@@ -234,6 +234,6 @@ input[type="checkbox"]:checked ~ .toggle a {
 }
 
 .toggle a{
-  transition: 5s;
+  transition: 10.6s;
   opacity: 0;
 }
