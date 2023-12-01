@@ -14,25 +14,27 @@ const ComingSoonNavBar = () => {
 
       <div className="right">
         <ul className="menu-long">
-          <li className="navtext"><a href="">Contacts</a></li>
+          <li className="navtext">
+            <a href="">Contacts</a>
+          </li>
           <FaCircle className="dot" style={{ color: "#ffffff" }} />
-          <li className="navtext"><a href="">About</a></li>
+          <li className="navtext">
+            <a href="">About</a>
+          </li>
         </ul>
-
-        {/* <div className="menu">
-          <div className="menu_button">
-            <FaBarsStaggered className='menubar' style={{ color: '#ffffff' }} />
-          </div>
-        </div> */}
 
         <div className="menu">
           <div className="menu_button">
-          <label for="check">
-            <input type="checkbox" id="check" />
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
+            <label for="check">
+              <input type="checkbox" id="check" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <div className="toggle">
+                <a href="">Contacts</a>
+                <a href="">About</a>
+              </div>
+            </label>
           </div>
         </div>
       </div>
