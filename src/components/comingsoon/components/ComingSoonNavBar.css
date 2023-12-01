@@ -197,10 +197,11 @@ ul a:hover::before, .toggle a:hover:before {
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
   background: rgb(0, 0, 0, 0.25);
   backdrop-filter: blur(18px);
   height: 0;
-  width: 0;
+  width: 100vw;
   z-index: 101;
   opacity: 0;
   color: #fff;
@@ -212,12 +213,14 @@ ul a:hover::before, .toggle a:hover:before {
   flex-direction: column;
   overflow: hidden; /* To hide content when height and width are 0 */
   transition: height 0.3s, width 0.3s; /* Add a smooth transition effect */
+  border-radius: 40000px;
 }
 
 input[type="checkbox"]:checked ~ .toggle {
   opacity: 1;
   height: 100vh;
   width: 100vw;
+  border-radius: 0;
 }
 
 .toggle a{
