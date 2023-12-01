@@ -206,14 +206,15 @@ ul a:hover::before, .toggle a:hover:before {
   opacity: 0;
   color: #fff;
   font-family: var(--font-ClashDisplay);
-  font-size: 22px;
+  font-size: 26px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   overflow: hidden; /* To hide content when height and width are 0 */
   transition: height 0.3s, width 0.3s; /* Add a smooth transition effect */
-  border-radius: 40000px;
+  /* border-radius: 4000px; */
+  transition: all 0.5s ease-in-out;
 }
 
 input[type="checkbox"]:checked ~ .toggle {
@@ -223,7 +224,16 @@ input[type="checkbox"]:checked ~ .toggle {
   border-radius: 0;
 }
 
+input[type="checkbox"]:checked ~ .toggle a {
+  opacity: 1;
+}
+
 .toggle a{
   margin-top: 20px;
   padding-bottom: 2px;
+}
+
+.toggle a{
+  transition: 5s;
+  opacity: 0;
 }
