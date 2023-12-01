@@ -40,7 +40,7 @@
 }
 
 .bottomNav .left:hover {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.15);
   transition: 0.5s all ease;
 }
 
@@ -55,6 +55,19 @@
   width: 27.008px;
   height: 34px;
   flex-shrink: 0;
+}
+
+.s1 abtn:hover::after {
+  animation: ro 7s linear infinite;
+}
+
+@keyframes ro {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .bottomNav .threads {
@@ -74,7 +87,7 @@
 }
 
 .bottomNav .right a:hover {
-  background: rgba(0, 0, 0, 0.2);
+  /* background: rgba(0, 0, 0, 0.15); */
   transition: 0.5s all ease;
 }
 
@@ -188,7 +201,8 @@
   }
 }
 
-a ,.bottomNav .left:hover{
+a,
+.bottomNav .left:hover {
   &:hover .arrow {
     &.left,
     &.right {
@@ -210,5 +224,46 @@ a ,.bottomNav .left:hover{
           var(--arrow-color);
       }
     }
+  }
+}
+
+.bottomNav .right a {
+  position: relative;
+}
+
+.bottomNav .right a::before {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottomNav .right a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.bottomNav .right a::after {
+  border: 2px dashed rgb(255, 255, 255, 0.2);
+}
+
+.bottomNav .right a:hover::after {
+  animation: ro 7s linear infinite;
+}
+
+@keyframes ro {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

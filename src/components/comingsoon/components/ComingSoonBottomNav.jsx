@@ -32,8 +32,8 @@ const ComingSoonBottomNav = () => {
       </div>
       
       <div className="right">
-        <a href="https://www.threads.net/@meco.app" target='blank'><FaThreads className="threads" style={{ color: '#ffffff' }} /></a>
-        <a href="https://www.instagram.com/meco.app/" target='blank'><FaInstagram className='insta' style={{ color: '#ffffff' }} /></a>
+        <a href="https://www.threads.net/@meco.app" target='blank'><FaThreads className="threads icon" style={{ color: '#ffffff' }} /></a>
+        <a href="https://www.instagram.com/meco.app/" target='blank'><FaInstagram className='insta icon' style={{ color: '#ffffff' }} /></a>
       </div>
     </div>
   )
