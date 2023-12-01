@@ -11,7 +11,7 @@ const ComingSoonBG = () => {
         <div></div>
         <div></div>
       </div>
-      <img src="../pu" alt="" />
+      <img src="public/noise.png" className="noise" />
     </div>
   );
 };

@@ -80,3 +80,12 @@
     width: 100%;
     backdrop-filter: blur(80px);
 }
+
+.noise {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
