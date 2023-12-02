@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import ComingSoon from './pages/comingsoon/ComingSoon'
+import Loading from './pages/loading/Loading'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <ComingSoon />
+      <Loading />
     </>
   )
 }
