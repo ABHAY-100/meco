@@ -234,6 +234,6 @@ input[type="checkbox"]:checked ~ .toggle a {
 }
 
 .toggle a{
-  transition: 10.6s;
+  transition: 1.6s;
   opacity: 0;
 }
