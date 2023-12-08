@@ -3,14 +3,8 @@
 ## Introduction
 meco steps in to solve the problem of limited mental health support. It provides a direct and stigma-free space for you to share your feelings. With meco, you can connect with supportive listeners easily. It's a simple and effective solution, creating a community that cares about your mental well-being.
 
-
-
-
 ## Getting Started
 To start experiencing the freedom of meco, follow these steps:
-
-
-
 
 1. Clone the repository:
     ```bash
@@ -27,16 +21,10 @@ To start experiencing the freedom of meco, follow these steps:
     npm run dev
     ```
 
-
-
-
 ### Usage
 1. Dive into the meco codebase.
 2. Contribute ideas, propose features, and share feedback on the evolving project.
 3. Collaborate with the community to bring meco to life.
-
-### Contributing
-Be part of the meco creation story! For contribution-related queries, reach out to [meco.apppp@gmail.com](mailto:meco.apppp@gmail.com).
 
 ### License
 This project is currently without a specified license. Please contact us for usage inquiries.
