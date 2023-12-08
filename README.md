@@ -1,11 +1,16 @@
-### Title
 # meco: Empowering Wellness
 
 ## Introduction
 meco steps in to solve the problem of limited mental health support. It provides a direct and stigma-free space for you to share your feelings. With meco, you can connect with supportive listeners easily. It's a simple and effective solution, creating a community that cares about your mental well-being.
 
+
+
+
 ## Getting Started
 To start experiencing the freedom of meco, follow these steps:
+
+
+
 
 1. Clone the repository:
     ```bash
@@ -21,7 +26,10 @@ To start experiencing the freedom of meco, follow these steps:
     ```bash
     npm run dev
     ```
-    
+
+
+
+
 ### Usage
 1. Dive into the meco codebase and explore areas marked for development.
 2. Contribute ideas, propose features, and share feedback on the evolving project.
