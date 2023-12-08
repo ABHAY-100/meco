@@ -26,9 +26,6 @@ To start experiencing the freedom of meco, follow these steps:
 2. Contribute ideas, propose features, and share feedback on the evolving project.
 3. Collaborate with the community to bring meco to life.
 
-### License
-This project is currently without a specified license. Please contact us for usage inquiries.
-
 ### Contact
 Connect with us at [meco.apppp@gmail.com](mailto:meco.apppp@gmail.com) to join the conversation and share your vision.
 
