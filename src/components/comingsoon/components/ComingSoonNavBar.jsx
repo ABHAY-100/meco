@@ -15,11 +15,11 @@ const ComingSoonNavBar = () => {
       <div className="right">
         <ul className="menu-long">
           <li className="navtext">
-            <a href="">Contacts</a>
+            <a href="https://github.com/ABHAY-100/meco#contact">Contacts</a>
           </li>
           <FaCircle className="dot" style={{ color: "#ffffff" }} />
           <li className="navtext">
-            <a href="">About</a>
+            <a href="https://github.com/ABHAY-100/meco#meco">About</a>
           </li>
         </ul>
 
@@ -31,8 +31,8 @@ const ComingSoonNavBar = () => {
               <span></span>
               <span></span>
               <div className="toggle">
-                <a href="">Contacts</a>
-                <a href="">About</a>
+                <a href="https://github.com/ABHAY-100/meco#contact">Contacts</a>
+                <a href="https://github.com/ABHAY-100/meco#meco">About</a>
               </div>
             </label>
           </div>
