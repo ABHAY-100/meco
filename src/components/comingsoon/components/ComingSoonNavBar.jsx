@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCircle } from "react-icons/fa";
-import { FaBarsStaggered } from "react-icons/fa6";
+import { FaBarsStaggered } from "react-icons/fa6"; {/* edit required*/}
 import "../components/ComingSoonNavBar.css";
 
 const ComingSoonNavBar = () => {
@@ -8,7 +8,7 @@ const ComingSoonNavBar = () => {
     <nav>
       <div className="left">
         <a href="https://meco.vercel.app/">
-          <img src="/meco-icon-blank.png" alt="meco logo" />
+          <img src="/meco-icon-blank.png" alt="meco logo" /> {/* icon edit required*/}
         </a>
       </div>
 
