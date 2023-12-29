@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <ComingSoon />
-      {/* <Loading /> */}
+      {/* <Loading /> */} {/* In Progress; remove the comment while start of work */}
     </>
   )
 }
