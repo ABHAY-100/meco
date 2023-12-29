@@ -22,6 +22,7 @@
   /* fonts sizes*/
   --font-size-commingsoon-maintext: 167px;
   --font-size-commingsoon-primary: 22px;
+  /*remember to edit this part as this is not necessary. we can add the sizes in there own files*/
 
   /* colors */
   --color-white: #fff;
