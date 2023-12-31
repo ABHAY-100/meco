@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.container {
+.ntw-container {
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -14,7 +14,7 @@
   z-index: -100;
 }
 
-.container div {
+.ntw-container div {
   position: absolute;
   width: 500px;
   height: 500px;

@@ -1,10 +1,7 @@
 import React from 'react'
 import { FaInstagram } from "react-icons/fa";
 import { FaThreads } from "react-icons/fa6";
-import { FaArrowRight } from "react-icons/fa6";
 import '../components/ComingSoonBottomNav.css'
-
-
 
 const ComingSoonBottomNav = () => {
   const handleSupportButtonClick = () => {
@@ -27,7 +24,6 @@ const ComingSoonBottomNav = () => {
     <div className="bottomNav">
       <div className="left" onClick={handleSupportButtonClick}>
         <p>Contribute Now</p>
-        {/* <FaArrowRight className="arrow" style={{ color: '#ffffff' }} /> */}
         <a href="#"><span class="arrow right"></span></a>
       </div>
       

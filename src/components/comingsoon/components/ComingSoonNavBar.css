@@ -40,7 +40,6 @@ ul {
 
 .menu {
   display: none;
-  /* z-index: 100; */
 }
 
 .menu_button {
@@ -52,11 +51,6 @@ ul {
   padding: 10px;
 }
 
-/* .menu_button:hover {
-  background: rgba(0, 0, 0, 0.2);
-  transition: 0.5s all ease;
-} */
-
 .menubar {
   width: 27.008px;
   height: 34px;
@@ -66,7 +60,6 @@ label {
   display: flex;
   flex-direction: column;
   width: 25px;
-  /* height: 21px; */
   cursor: pointer;
 }
 
@@ -165,7 +158,6 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 
 ul a, .toggle a{
   text-decoration: none;
-  /* pointer-events: none; */
 }
 
 ul a, .toggle a {
@@ -211,9 +203,8 @@ ul a:hover::before, .toggle a:hover:before {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  overflow: hidden; /* To hide content when height and width are 0 */
-  transition: height 0.3s, width 0.3s; /* Add a smooth transition effect */
-  /* border-radius: 4000px; */
+  overflow: hidden;
+  transition: height 0.3s, width 0.3s;
   transition: all 0.75s ease-in-out;
 }
 
