@@ -36,3 +36,10 @@
   --color-DarkPurple-1: #510273;
   --color-DarkPurple-2: #281740;
 }
+
+body{
+  width:100vw;
+  height: 100vh;
+  background: #BC04BF;
+  overflow-x: hidden;
+}
