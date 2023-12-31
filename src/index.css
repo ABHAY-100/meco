@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* tailwind directives */
+
 @font-face {
   font-family: "StarifeDemo";
   src: url("/fonts/StarifeDemo.ttf") format("truetype");
