@@ -5,7 +5,7 @@ import '../components/ComingSoonBottomNav.css'
 
 const ComingSoonBottomNav = () => {
   const handleSupportButtonClick = () => {
-    const emailAddress = 'meco.apppp@gmail.com';
+    const emailAddress = 'meco.reachout@gmail.com';
     const subject = 'Expression of Interest in Contributing';
     const body = encodeURIComponent(`
     Kindly provide the following details in your response:

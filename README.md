@@ -27,6 +27,6 @@ To start experiencing the freedom of meco, follow these steps:
 3. Collaborate with the community to bring meco to life.
 
 ### Contact
-Connect with us at [meco.apppp@gmail.com](mailto:meco.apppp@gmail.com) to join the conversation and share your vision.
+Connect with us at [meco.reachout@gmail.com](mailto:meco.reachout@gmail.com) to join the conversation and share your vision.
 
 Thank you for your interest in meco! 🤝
