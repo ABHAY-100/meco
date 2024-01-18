@@ -16,7 +16,7 @@ const ComingSoonBG = () => {
         <div className="Ellipse9" />
         <div className="Ellipse10" />
       </div>
-      <img src="/noise.png" className="noise" />
+      <img src="/noise.png" alt="bg_noise" className="noise" />
     </div>
   );
 };
