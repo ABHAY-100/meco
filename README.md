@@ -1,6 +1,6 @@
 # meco
 
-This repository currently hosts a 'Coming Soon' webpage, providing a sneak peek into meco—an initiative dedicated to promoting mental well-being. The full-fledged web application is actively under development in a separate repository. Originating from the GenAi Workshop, meco is transforming into a comprehensive platform. While this repository marks the initial stage, the primary platform is progressing independently, aspiring to establish a secure and inclusive space for everyone.
+This repository currently hosts a 'Coming Soon' webpage, providing a sneak peek into meco — an initiative dedicated to promoting mental well-being. The full-fledged web application is actively under development in a separate repository. Originating from the GenAi Workshop, meco is transforming into a comprehensive platform. While this repository marks the initial stage, the primary platform is progressing independently, aspiring to establish a secure and inclusive space for everyone.
 
 
 
