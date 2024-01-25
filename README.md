@@ -36,7 +36,7 @@ providing professional help if needed.
 
 
 ## Build With
-![My Skills](https://skillicons.dev/icons?i=js,html,css,react,figma,vercel,google-analytics)
+![My Skills](https://skillicons.dev/icons?i=js,html,css,react,vite,figma,vercel)
 
 
 
