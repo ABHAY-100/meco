@@ -7,7 +7,7 @@ const ComingSoonNavBar = () => {
     <nav>
       <div className="left">
         <a href="https://meco.vercel.app/">
-          <img src="/meco-icon-white.png" alt="meco_logo" />
+          <img src="/meco-icon-transparent.png" alt="meco_logo" />
         </a>
       </div>
 
