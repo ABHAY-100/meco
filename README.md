@@ -4,7 +4,7 @@ This repository currently hosts a 'Coming Soon' webpage, providing a sneak peek 
 
 
 
-## Sneak Peek
+## Preview
 
 [![meco](public/browser-window-mockup.png)](https://meco.vercel.app)
 
